@@ -50,7 +50,7 @@ const Header = () => {
             className="bg-gray-200 text-gray-800 rounded focus:ring-2 focus:outline-none border px-4 py-2 max-w-4xl w-full"
           />
         </Form>
-        <div className="flex items-center space-x-4 sm:mt-0 sm:flex-none ">
+        <div className="flex items-center space-x-4 mt-2 sm:flex-none ">
           <Link
             href="/basket"
             className="bg-blue-600 flex flex-1 relative py-2 px-4 rounded  sm:mx-4 justify-center items-center  sm:flex-none  text-white space-x-2 hover:bg-lime-600 font-bold  hover:text-black "
