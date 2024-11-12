@@ -42,7 +42,7 @@ export function CategorySelectorComponent({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className=" max-w-full relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-300 hover:bg-blue-600 hover:text-white font-bold py-4 rounded ml-5 mt-2 "
+          className=" max-w-full relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-300 hover:bg-blue-600 hover:text-white font-bold py-4 rounded ml-6 mt-2 "
         >
           {value
             ? categories.find((category) => category._id === value)?.title
